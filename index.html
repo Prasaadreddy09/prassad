@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DeviPrasaadReddy Portfolio</title>
+    <!-- <link rel="stylesheet" href="msd assignment.css"> -->
+    <style>
+        /* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #0B0C10; /* Dark Background */
+    color: #C5C6C7; /* Light Gray Text */
+}
+
+header {
+    background-color: #1F2833; /* Dark Gray-Blue Background */
+    padding: 10px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+}
+
+.nav-list {
+    list-style-type: none;
+    display: flex;
+}
+
+.nav-list li {
+    margin: 0 15px;
+}
+
+.nav-list li a {
+    color: #C5C6C7; /* Light Gray Text */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-list li a:hover {
+    color: #66FCF1; /* Bright Cyan Hover Effect */
+}
+
+/* Sections */
+.section {
+    padding: 80px 20px;
+    text-align: center;
+    height: 100vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-section {
+    background: #1F2833; /* Dark Gray-Blue Background */
+    color: #66FCF1; /* Bright Cyan Text */
+}
+
+.home-section h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.home-section p {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.about-section {
+    background-color: #0B0C10; /* Dark Background */
+    color: #C5C6C7; /* Light Gray Text */
+}
+
+.about-section h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.about-section p {
+    font-size: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.projects-section {
+    background-color: #1F2833; /* Dark Gray-Blue Background */
+    color: #C5C6C7; /* Light Gray Text */
+}
+
+.projects-section h2 {
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.projects-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.project {
+    background-color: #0B0C10; /* Dark Background */
+    color: #C5C6C7; /* Light Gray Text */
+    border: 1px solid #45A29E; /* Teal Border */
+    border-radius: 8px;
+    margin: 15px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.project:hover {
+    transform: translateY(-5px);
+}
+
+.project h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.project p {
+    font-size: 16px;
+}
+
+.contact-section {
+    background-color: #0B0C10; /* Dark Background */
+    color: #66FCF1; /* Bright Cyan Text */
+}
+
+.contact-section h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #45A29E; /* Teal Border */
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #1F2833; /* Dark Gray-Blue Background */
+    color: #C5C6C7; /* Light Gray Text */
+}
+
+.contact-form button {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    background-color: #45A29E; /* Teal Button */
+    color: #0B0C10; /* Dark Text */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.contact-form button:hover {
+    background-color: #66FCF1; /* Bright Cyan Hover Effect */
+}
+
+/* Footer Styles */
+footer {
+    background-color: #1F2833; /* Dark Gray-Blue Background */
+    color: #C5C6C7; /* Light Gray Text */
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="nav-list">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home" class="section home-section">
+        <div class="intro">
+            <h1>Welcome, I'm Devi Prasaad Reddy Bogala</h1>
+            <p>Explore my portfolio and discover my work and passions.</p>
+        </div>
+    </section>
+    <section id="about" class="section about-section">
+        <h2>About Me</h2>
+        <p>
+            Hello! I'm DeviPrasaad Reddy, a software developer with a passion for creating innovative and efficient solutions. I hold a Bachelor's degree in Computer Science and have experience working on various web and mobile applications.
+            <br><br>
+            My journey in technology started with a fascination for problem-solving and programming. Over the years, I’ve developed a strong skill set in web development, mobile app development, and UX/UI design. I thrive on challenges and am always looking to learn and grow.
+            <br><br>
+            Outside of coding, I enjoy hiking, photography, and exploring new tech trends. I believe in balancing work with personal interests to stay inspired and motivated.
+            <br><br>
+            I’m always open to new opportunities and collaborations. Let’s connect and see how we can work together!
+        </p>
+    </section>
+    <!-- Projects Section -->
+    <section id="projects" class="section projects-section">
+        <h2>Featured Projects</h2>
+        <div class="projects-container">
+            <div class="project">
+                <h3>AI-Powered Chatbot</h3>
+                <p>
+                    Developed an AI-powered chatbot designed to assist customers in real-time, offering personalized responses and seamless interactions. This project leverages natural language processing (NLP) and machine learning to improve customer support efficiency.
+                </p>
+                <p>
+                    Built with Python and TensorFlow, the chatbot integrates with various messaging platforms and includes features like sentiment analysis and predictive text to enhance user experience.
+                </p>
+            </div>
+            <div class="project">
+                <h3>E-Commerce Analytics Dashboard</h3>
+                <p>
+                    Created a comprehensive analytics dashboard for an e-commerce platform, enabling businesses to track sales, monitor customer behavior, and optimize marketing strategies. The dashboard provides real-time insights and customizable reports.
+                </p>
+                <p>
+                    Developed using React and D3.js, the dashboard features interactive data visualizations and supports integration with various data sources for a holistic view of business performance.
+                </p>
+            </div>
+            <div class="project">
+                <h3>Smart Home Automation System</h3>
+                <p>
+                    Designed a smart home automation system that allows users to control lighting, temperature, and security systems remotely via a mobile app. The system emphasizes ease of use and security, making smart home technology accessible to everyone.
+                </p>
+                <p>
+                    Built with IoT devices and a custom Android app, the system integrates with voice assistants and supports real-time monitoring and control from anywhere in the world.
+                </p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact" class="section contact-section">
+        <h2>Get in Touch</h2>
+        <form action="mailto:jane.doe@example.com" method="POST" enctype="text/plain" class="contact-form">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 DeviPrasaadReddy. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
